@@ -1,0 +1,31 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "meili.moc3",
+		"Textures": [
+			"meili.1024/texture_00.png"
+		],
+		"Physics": "meili.physics3.json",
+		"DisplayInfo": "meili.cdi3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "Scene1.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}

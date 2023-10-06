@@ -58,7 +58,7 @@ export class LAppDelegate {
     // canvas.height = LAppDefine.RenderTargetHeight;
     // 原来是用js动态在网页上创建画布，画布的长宽在lappdefine.ts指定，现在直接在html中已经有了画布直接拿过来使用就行
     canvas = <HTMLCanvasElement>document.getElementById("live2d"); // index.html中的id为live2d的画布
-    canvas.width = canvas.width;
+    canvas.width = 300;
     canvas.height = canvas.height;
     canvas.toDataURL("image/png");
 
